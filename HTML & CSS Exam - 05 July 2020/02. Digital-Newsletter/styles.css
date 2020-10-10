@@ -132,3 +132,43 @@ footer {
 .social-icons-wrapper a {
   margin: 0.5em;
 }
+
+
+@media screen and (max-width: 884px) {
+  main {
+    padding: 0;
+  }
+
+  .newsletter-boxes {
+    flex-flow: column;
+    padding: 2.4em;
+  }
+
+  .newsletter-bottom {
+    padding-right: 20px;
+  }
+
+  .newsletter-bottom hr,
+  .newsletter-bottom article {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .newsletter-bottom hr {
+    width: 35%;
+  }
+
+  .newsletter-bottom article {
+    width: 45%;
+  }
+
+  .newsletter-bottom-content {
+    text-align: left;
+  }
+
+  .bottom-logo {
+    width: 20%;
+    margin: 0 auto;
+  }
+
+}
