@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Navigation */
+.site-navigation {
+  margin-top: 20px;
+}
+
+.site-navigation ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.site-navigation ul li {
+  list-style: none;
+}
+
+.site-navigation ul li a {
+  text-decoration: none;
+  color: #9D9D9D;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+button {
+  cursor: pointer;
+}
+
+.product1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+
+.product1-description {
+  padding: 0 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.product1-description > h3 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.product1-description > p {
+  line-height: 2.4rem;
+  margin-bottom: 30px;
+}
+
+.product1-description > button {
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  padding: 11px 50px;
+  border: 1px solid #FF0000;
+  border-radius: 20px;
+  color: white;
+  background: #FF0000;
+}
+
+.product1-imgwrapper {
+  width: 800px;
+}
+
+.product1-imgwrapper > img {
+  width: 810px;
+  height: auto;
+}
+
+.product2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.product2-imgwrapper {
+  width: 800px;
+}
+
+.product2-imgwrapper > img {
+  width: 100%;
+  height: auto;
+}
+
+
+.product2-description {
+  padding: 0 40px 20px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.product2-description > div {
+  margin-bottom: 50px;
+}
+
+.product2-description > div > h3 {
+  font-size: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.product2-description > div > p {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: -1rem;
+  float: right;
+  text-align: right;
+}
+
+.product2-description p:nth-child(2) {
+  line-height: 2.4rem;
+  margin-bottom: 30px;
+  width: 390px;
+}
+
+.product2-description div:nth-child(3) {
+  font-size: 2.4rem;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product2-description div:nth-child(3) > span {
+  font-weight: 700;
+}
+
+.product2-description div:nth-child(3) > button {
+  text-transform: uppercase;
+  padding: 11px 50px;
+  border: 1px solid #FF0000;
+  border-radius: 20px;
+  color: white;
+  margin-left: 20px;
+  background: #FF0000;
+}
+
+.product3 {
+  background-color: #575757;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.product3-row > img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.product3-row > p {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.product3 > button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 3rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid white;
+}
+
+.product4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #DADADA;
+  padding-right: 40px;
+}
+
+.product4 img {
+  display: inline-block;
+}
+
+.product4 p {
+  display: inline-block;
+  padding-left: 40px;
+}
+
+.product4 p span:nth-child(1) {
+  text-transform: uppercase;
+  font-size: 10rem;
+  font-weight: 700;
+  color: #333333;
+  letter-spacing: -16px;
+}
+
+.product4 p span:nth-child(2) {
+  font-size: 4rem;
+  color: #333333;
+  letter-spacing: -5px;
+}
+
+.product4 p span:nth-child(3) {
+  font-size: 4rem;
+    text-transform: uppercase;
+    color: #FF0000;
+    font-weight: 600;
+    letter-spacing: -7px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 2.6rem;
+  color: #333333;
+}
