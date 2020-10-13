@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gelasio', serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E6E3DE;
+}
+
+.logo {
+  color: #554938;
+  padding: 14px 0 14px 15px;
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.site-navigation ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.site-navigation ul li a{
+  text-decoration: none;
+  margin-right: 20px;
+  color: #554A40;
+  font-size: 1rem;
+}
+
+.search button {
+  margin-right: 30px;
+  border: none;
+  background-color: #554938;
+  padding: 6px 9px;
+  color: white;
+}
+
+.search i {
+  padding-right: 40px;
+}
+
+.search-craving {
+  background-image: url(./Requirements-and-Resources/Media/craving.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 67vh;
+  text-align: center;
+  color: white;
+}
+
+.search-craving h2 {
+  margin-top: 0;
+  padding-top: 18vh;
+  margin-bottom: 20px;
+  font-size: 2.3rem;
+}
+
+.search-craving input {
+  width: 24vw;
+  padding: 10px;
+  background-color: rgba(255,255,255, 0.6);
+  border: none;
+  position: relative;
+}
+
+.search-craving i {
+  position: absolute;
+  right: calc(50% + 21.5vw/2);
+  top: calc(50% - 72px);
+  color: grey;
+}
+
+.content {
+  padding-top: 10px;
+  background-image: url(./Requirements-and-Resources/Media/background.jpg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 240vh;
+}
+
+.craving-card {
+  width: 85%;
+  margin: 0 auto;
+  background-color: #E6E3DE;
+  margin-top: 60px;
+}
+
+.img-wrapper {
+  width: 59%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.craving-card-content {
+  width: 39%;
+  display: inline-block;
+  text-align: center;
+  padding: 8px;
+  position: relative;
+  top: 100px;
+}
+
+.craving-card-content h3 {
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.craving-card-content p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.craving-card-content button {
+  border: none;
+  background-color: #554938;
+  padding: 14px 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-top: 25px;
+  cursor: pointer;
+  outline: none;  
+}
+
+.toolbox {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.toolbox h4 {
+  display: inline-block;
+  padding: 10px 30px;
+  margin-bottom: 15px;
+  color: #554938;
+  background-color: rgba(255,255,255, 0.6);
+  font-size: 1.2rem;
+}
+
+.toolbox-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.toolbox-card {
+  display: inline-block;
+  width: 20%;
+  margin: 0 20px;
+  background-color: rgba(255,255,255, 0.6);
+}
+
+.toolbox-card p {
+  font-size: 1.2rem;
+  font-style: oblique;
+  font-weight: 600;
+  margin: 15px 0px;
+}
+
+.img-toolbox {
+  height: auto;
+}
+
+.img-toolbox img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.toolbox button {
+  display: inline-block;
+  padding: 7px 30px;
+  margin-bottom: 15px;
+  color: #FFFFFF;
+  background-color: rgba(220, 78, 54, 0.9);
+  font-size: 0.9rem;
+  border: none;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgba(255,255,255, 0.8);
+  font-weight: 400;
+  height: 20vh;
+  position: relative;
+  bottom: 120px;
+}
+
+footer ul {
+  display: inline-block;
+}
+
+footer li {
+  list-style: none;
+  display: inline-block;
+}
+
+footer a {
+  text-decoration: none;
+  color: #3B3C3B;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
