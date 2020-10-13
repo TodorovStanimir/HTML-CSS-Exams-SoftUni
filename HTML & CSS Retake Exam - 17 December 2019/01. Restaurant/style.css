@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFD9B0;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.booking {
+  background-color: #111111;
+  color: #FFFFFF;
+  width: 70%;
+  margin: 30px auto 50px auto;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.img-wrapper {
+  display: inline-block;
+  width: 55%;
+  height: auto;
+  vertical-align: top;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.booking-form {
+  display: inline-block;
+  margin-left: 50px;
+  /* text-align: center; */
+}
+
+.booking-form h2 {
+  font-size: 1.2rem;
+  margin-top: 60px;
+  font-weight: 400;
+}
+
+.booking-form input {
+  display: block;
+  margin: 25px 0;
+  background-color: #111111;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 2px 0;
+  width: 102%;
+  font-size: 0.7rem;
+  outline: none;
+}
+
+.booking-form button {
+  padding: 10px 35px;
+  background-color: #EDB77D;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  color: white;
+  margin-top: 10px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+}
