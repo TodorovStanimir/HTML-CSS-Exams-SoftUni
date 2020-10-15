@@ -142,7 +142,10 @@ main {
 }
 
 .service {
-  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  flex: 1;
 }
 
 .service div {
@@ -200,7 +203,8 @@ footer {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  width:50%
+  width:50%;
+  align-self: center;
 }
 
 .contacts-btn1 {
@@ -235,4 +239,5 @@ footer {
   margin: 0 5px;
   outline: none;
   cursor: pointer;
+  font-size: 1.7rem;
 }
