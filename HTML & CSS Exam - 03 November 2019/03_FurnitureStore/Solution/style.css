@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #F93700;
+  padding: 8px 20px;
+}
+
+.site-nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 2px 15px;
+}
+
+.site-nav ul li a {
+  text-decoration: none;
+  color: white
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  margin-right: 100px;
+
+}
+
+.search input {
+  width: 300px;
+  border: none;
+  padding: 7px 10px;
+  font-size: 0.7rem;
+}
+
+.search button {
+  padding: 2px 30px;
+  color: white;
+  background-color: #B6AFAF;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.my-account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-account i {
+  margin-right: 10px;
+}
+
+.my-account p {
+  margin-right: 30px;
+}
+
+main {
+  background-color: #F0E4E4;
+  padding: 30px 60px 10px 60px;
+}
+
+.rooms {
+  display: flex;
+  justify-content: space-between;
+}
+
+.room {
+  flex: 1;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.img-wrapper img {
+  width: 260px;
+  height: 260px;
+  display: inline-block;
+}
+
+.room h3  {
+  color: #808080;
+  font-weight: 400;
+}
+
+.shop {
+  display: flex;
+  padding: 20px;
+}
+
+.shop-description {
+  flex: 1 0 auto;
+}
+
+.shop-description h2 {
+  color: #F93700;
+  font-size: 2.3rem;
+  font-weight: 400;
+  padding-right: 80px;
+  padding-top: 50px;
+}
+
+.shop-description p {
+  padding: 10px 0 20px 0;
+  color: #808080;
+}
+
+.shop-description button {
+  color: white;
+  background-color: #F93700;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.shop-img-wrapper {
+  width: 100%;
+}
+
+.shop-img-wrapper img {
+  width: 100%;
+}
+
+.services {
+  display: flex;
+  margin: 20px;
+  padding: 40px;
+  justify-content: space-around;
+  background-color: #CAC3C3;
+}
+
+.service {
+  text-align: center;
+}
+
+.service div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: #E6D6D6;
+  border-radius: 50%;
+}
+
+.service div img {
+  width: 100px;
+  height: 100px;
+}
+
+.service h4 {
+  color: #474242;
+  margin-top: 10px;
+}
+
+.service p {
+  color: #808080;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px 40px 80px;
+  background-color: #F0E4E4;
+  color: #808080;
+}
+
+.footer-nav nav ul {
+  display: flex;
+}
+
+.footer-nav nav ul li {
+  list-style: none;
+  margin: 0 5px;
+}
+
+.footer-nav nav ul li:first-child {
+  font-weight: 600;
+}
+
+.footer-nav nav ul  li a {
+  text-decoration: none;
+  color: #808080;
+  font-size: 0.8rem;
+}
+
+.contacts {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width:50%
+}
+
+.contacts-btn1 {
+  border: none;
+  font-size: 0.9rem;
+  padding: 5px;
+  font-weight: 600;
+  color: #808080;
+  background-color: #F0E4E4;
+  outline: none;
+  cursor: pointer;
+}
+
+.contacts-btn2 {
+  margin: 7px 15px 0 15px;
+  padding: 10px 60px 10px 60px;
+  font-size: 0.7rem;
+  border: none;
+  background-color: #CAC3C3;
+  align-self: flex-start;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.contacts p {
+  margin: 0 15px;
+  font-size: 0.8rem;
+}
+
+.social i {
+  margin: 0 5px;
+  outline: none;
+  cursor: pointer;
+}
