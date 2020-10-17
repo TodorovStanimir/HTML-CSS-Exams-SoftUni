@@ -24,7 +24,6 @@ body {
 .container {
   margin:180px auto;
   width: 70%;
-  /* height: 110%; */
   background-image: url(../Requirements-and-Resources//images/image.jpg);
   background-repeat: no-repeat;
   background-size: cover;

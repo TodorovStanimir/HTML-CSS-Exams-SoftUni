@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+body, 
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 64%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+header {
+  height: 100vh;
+  background-image: url(../Requirements-and-Resources/image/image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 23px 50px 35px;
+  align-items: flex-start;
+}
+
+.company {
+  width: 23%;
+  padding: 15px;
+  box-shadow: 2px 2px 3px 1px #787777;
+  align-self: start;
+  opacity: 0.7;
+  position: relative;
+  margin-left: 0;
+}
+
+.company h2 {
+  margin-top: 10px;
+  margin-bottom: 12px;
+  line-height: 2.7rem;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1.8rem;
+}
+
+.company h2::after {
+  content: '_________';
+  color: white;
+  position: absolute;
+  left: 14px;
+  top: 85px;
+  font-size: 1.5rem;
+}
+
+.company p {
+  font-size: 0.8rem;
+}
+
+.company-slogan {
+  width: 32%;
+  background: linear-gradient(90deg, rgba(155,145,137,1) 0%, rgba(207,204,201,1) 63%, rgba(201,199,198,1) 100%);
+  padding: 20px 15px 10px 15px;
+  margin-top: 150px;
+  text-align: right;
+  position: relative;
+  box-shadow: 2px 2px 4px 2px #787777;
+}
+
+.company-slogan p {
+  font-size: 0.77rem;
+  color: #FFFFFF;
+  line-height: 1.3rem;
+  text-shadow: 1px 1px 1px #616161;
+  margin-top: 35px;
+}
+
+.company-slogan p::before {
+  content: '"';
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  font-size: 4rem;
+  color:#8D8581;
+  text-shadow: 1px 1px 1px #616161;
+}
+
+main {
+  display: flex;
+}
+
+.our-services,
+.contacts {
+  background-color: #F2F0F3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-services {
+  border-bottom: 1px solid;
+  padding: 50px 38px 0px 50px;
+}
+
+.our-services h2,
+.contacts h2 {
+text-transform: uppercase;
+font-size: 1.8rem;
+}
+
+.our-services h2:nth-of-type(2) {
+  margin-top: 40px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card i {
+  margin-right: 5px;;
+}
+
+.strong {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card p {
+  font-size: 0.85rem;
+  line-height: 1.3rem;
+}
+
+.contacts {
+  padding: 10px 38px 10px 50px;
+}
+
+.contacts h2 {
+  flex: 1 0 100%;
+  margin-bottom: 20px;
+}
+
+.contact {
+  margin: 5px 10px 0 0;
+  font-size: 0.9rem;
+}
+
+.contact span {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.getstart {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px
+}
+
+.getstart input,
+.getstart button {
+  padding: 7px 10px;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  color: #FFFFFF;
+}
+
+.getstart input {
+  width: 50%;
+  background-color: #BAB1AD;
+  margin-right: 5px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.getstart-btn {
+  background-color: #67784D;
+}
+
+.our-achievements {
+  background-color: #BAB1AD;
+  flex: 0 0 30%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.our-achievements p:nth-of-type(1) {
+  color: #FFFFFF;
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.our-achievements p:nth-of-type(2) {
+  text-transform: uppercase;
+  margin-left: 0;
+  font-size: 0.9rem;
+}
