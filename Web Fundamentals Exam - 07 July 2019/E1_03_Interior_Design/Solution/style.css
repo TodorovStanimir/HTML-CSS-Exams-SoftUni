@@ -176,6 +176,10 @@ font-size: 1.8rem;
   margin-right: 5px;
 }
 
+.getstart button {
+  cursor: pointer;
+}
+
 ::placeholder {
   color: white;
 }
@@ -189,9 +193,15 @@ font-size: 1.8rem;
   flex: 0 0 30%;
   display: flex;
   flex-flow: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
   padding-left: 10px;
+}
+
+.achieve {
+  line-height: 2.3rem;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .our-achievements p:nth-of-type(1) {
