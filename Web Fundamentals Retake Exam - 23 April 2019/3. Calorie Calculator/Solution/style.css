@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body,
+* {
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+input {
+  
+}
+
+.calorie-calculator {
+  display: flex;
+  width: 56%;
+  margin: 50px auto;
+  border: 2px solid #888686;
+  border-radius: 4px;
+  min-width: 705px;
+}
+
+.img-wrapper,
+.calculator-data {
+  flex: 1 0 50%;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.calculator-data {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F6F7F8;
+}
+
+.calculator-form {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #4C4C4C;
+}
+
+.calculator-data h2 {
+  flex: 0 1 auto;
+  text-align: center;
+  color: #4C4C5E;
+  font-size: 1.3rem;
+}
+
+input[type="button"] {
+  flex: 1 0 50%;
+  padding: 8px 0;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="button"]:first-child {
+  background-color: #EFE562;
+}
+
+input[type="button"]:last-child {
+  background-color: #E0E0DF;
+}
+
+.input-group {
+  flex: 0 1 45%;
+  display: flex;
+  flex-flow: column;
+}
+
+.input-group input {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  width: 107%;
+  margin-left: 20px;
+  font-size: 0.9rem;
+}
+
+select {
+  font-style: italic;
+  border-radius: 4px;
+  padding: 5px 0;
+  border: 1px solid grey;
+  color: grey;
+  font-size: 0.9rem;
+}
+
+
+.input-group input::placeholder {
+  font-style: italic;
+  border-radius: 4px;
+}
+
+.input-group label[for="age"] {
+  margin-left: 22px;
+}
+
+.input-group-row {
+  flex: 0 1 99%;
+  display: flex;
+  flex-flow: column;
+}
+
+.input-group-row input {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  font-size: 0.9rem;
+}
+
+.input-group-row input::placeholder {
+  font-style: italic;
+  border-radius: 4px;
+}
+
+
+.two-column {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.two-column label {
+  flex: 1 0 100%;
+}
+
+.two-column input{
+  width: 48%;
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+input[type="submit"] {
+  flex: 1 0 100%;
+  padding: 8px 0;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+  border: none;
+  outline: none;
+  background-color: #05A2D3;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+
