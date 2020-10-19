@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Serif', serif;
+  box-sizing: border-box;
+}
+
+.product-card {
+  width: 848px;
+  height: 520px;
+  margin: 75px auto 70px auto;
+  background-image: url(../Requirements-and-Resources/image/image1.png);
+  background-size: auto;
+  background-repeat: repeat-y;
+  box-shadow: 0px 0px 32px -6px black;
+  display: flex;
+  justify-content: center;
+}
+
+.product-info {
+  padding: 35px 35px 30px 32px;
+  flex: 0 1 50%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+.product-info h2 {
+  text-align: center;
+  font-size: 1.7rem;
+  border-bottom: 2px dotted #488401;
+}
+
+.serves {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic;
+  margin-top: 1px;
+  font-size: 1.1rem;
+}
+
+.ingredients {
+  margin-top: 40px;
+  line-height: 1.8rem;
+}
+
+.ingredients span {
+  color: #488401;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.description {
+  margin-top: 45px;
+  font-size: 1rem;
+  line-height: 1.7rem;
+}
+
+.calories table {
+  width: 100%;
+  border: 1px solid #488401;
+  margin-top: 50px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.calories table td, th {
+  border: 1px solid #488401;
+}
+
+
+.img-wrapper {
+  flex: 0 1 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
