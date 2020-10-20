@@ -43,9 +43,7 @@ body,
   border-radius: 20px;
   display: flex;
   flex-flow: column;
-  /* justify-content: space-between; */
   text-align: center;
-  overflow: hidden;
 }
 
 .img-wrapper {
@@ -60,7 +58,6 @@ body,
 
 .img-wrapper img {
   width: 100%;
-  height: auto;
 }
 
 .card-description {
@@ -68,7 +65,6 @@ body,
   flex: 1;
   display: flex;
   flex-flow: column;
-  align-items: stretch;
 }
 
 .card-description h3 {
