@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+body,
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
+  background-color: #EBF0F0;
+}
+
+form {
+  width: 30%;
+  margin: 50px auto;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form h2 {
+  border-bottom: 2px solid #007ACC;
+  text-align: center;
+  color: #464646;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  flex: 1 0 100%;
+}
+
+.input-group {
+  flex: 1 0 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.input-group label {
+  display: block;
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 8px 8px 8px 35px;
+  border: 1px solid #C9E1EA;
+  border-radius: 5px;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.input-group::before {
+  content: '*';
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 3px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color:#FF2330;
+  position: absolute;
+  left: -15px;
+  bottom: 33px;
+}
+
+.input-group::after {
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 3px;
+  font-size: 1rem;
+  font-weight: 600;
+  color:#5C5757;
+  position: absolute;
+  left: 10px;
+  bottom: 8px;
+}
+
+.name::after {
+  content: "\f007  \2758";
+}
+
+.email::after {
+  content: "\f0e0  \2758";
+}
+
+.phone::after {
+  content: "\f3cd  \2758";
+}
+
+.password::after {
+  content: "\f023  \2758";
+}
+
+input[type="submit"] {
+  flex: 1 0 auto;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  background-color: #007ACC;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+label[for="password"] spam {
+  font-size: 0.8rem;
+  opacity: 0.3;
+}
