@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.services {
+  width: 76%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services h1 {
+  font-size: 2.1rem;
+}
+
+h1::before {
+  content: '';
+  width: 105px;
+  border-bottom: 2px solid #34B1C4;
+  position: absolute;
+  top: 65px
+}
+
+.after-header {
+  margin: 20px 0;
+}
+
+.service-card {
+  flex: 0 1 31.5%;
+  border: 1px solid #DDDDDD;
+  text-align: center;  
+}
+
+.service-card h3 {
+  font-weight: 500;
+  padding: 10px 0;
+  color: #FFFFFF;
+}
+
+.service-card:nth-child(odd) h3 {
+  background-color: #333333;
+}
+
+.service-card:nth-child(even) h3 {
+  background-color: #1996A9;
+}
+
+.service-card-price {
+  padding: 10px 0;
+  background-color: #F6F6F6;
+  font-size: 1.5rem;
+}
+
+.service-card-descripton,
+.service-card-descripton-database,
+.service-card-descripton-storage,
+.service-card-descripton-users  {
+  border-bottom: 1px dotted #DDDDDD;
+}
+
+.service-card-descripton {
+  font-size: 0.8rem;
+  padding: 15px 0;
+}
+
+.service-card-descripton-database,
+.service-card-descripton-storage,
+.service-card-descripton-users  {
+  padding: 10px 0;
+}
+
+.service-card-btn {
+  font-size: 1.1rem;
+  padding: 10px 30px;
+  background-color: #008CBA;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  margin: 25px;
+}
