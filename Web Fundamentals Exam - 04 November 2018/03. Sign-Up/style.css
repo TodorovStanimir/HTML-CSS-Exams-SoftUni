@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+body,
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #E9E9E9;
+}
+
+.login {
+  width: 55%;
+  margin: 100px auto;
+  display: flex;;
+  justify-items: center;
+  align-items: stretch;
+}
+
+.welcome,
+.login-form {
+  flex: 0 1 50%;
+}
+
+.welcome {
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,.8) 100%), url(./images/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  color: #FFFFFF;
+  height: 420px;
+  text-align: center;
+}
+.logo {
+  align-self: flex-start;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.welcome main h1 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.welcome main p {
+  font-size: 1.35rem;
+}
+
+.welcome footer i {
+  margin: 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  padding: 40px 20px;
+  background-color: #FAFAFA;
+}
+
+.login-form div {
+  margin-bottom: 30px;
+}
+
+.login-form label {
+  display: block;
+  color: #D6D8DE;
+  font-size: 0.9rem;
+}
+
+.login-form input {
+  display: block;
+  padding: 5px 10px;
+  border: none;
+  background-color: #FAFAFA;
+  border-bottom: 1px solid #D2D2D2;
+  width: 92%;
+  font-size: 1rem;
+  outline: none;
+}
+
+.login-form button {
+  border: none;
+  padding: 10px 45px;
+  border-radius: 20px;
+  background-color: #111111;
+  color: #FFFFFF;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #9A9AA6;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-top: 20px;
+}
