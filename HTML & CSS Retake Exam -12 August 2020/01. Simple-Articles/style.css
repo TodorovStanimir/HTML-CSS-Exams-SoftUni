@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+body, * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px 20px;
+}
+
+.description,
+.enroll {
+  flex: 0 1 40%;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px #cccccc
+}
+
+.description {
+  background-color: #E3F3FD;
+  padding: 30px 0px 30px 30px;
+}
+
+.description h2 {
+  color: #546272;
+  font-weight: 500;
+}
+
+.description p {
+  margin: 20px 0;
+  color: #656668;
+}
+
+.fa-check {
+  color: #44A9F8;
+  margin-right: 15px;
+}
+
+.enroll {
+  border: 5px solid #44A9F8;
+  padding: 60px 0;
+  text-align: center;
+  color: #636363;
+}
+
+.enroll h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.enroll span {
+  color: #44A9F8;
+  font-size: 3rem;
+}
+
+.enroll p {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.enroll button {
+  padding: 6px 50px;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  background-color: #44A9F8;
+  border: none;
+  border-radius: 5px;
+  margin-top: 41px;
+  box-shadow: 0px 2px 3px 2px #cccccc;
+  cursor: pointer;
+  outline: none;
+}
