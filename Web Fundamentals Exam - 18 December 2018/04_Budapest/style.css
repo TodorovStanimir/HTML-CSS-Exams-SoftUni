@@ -1,0 +1,248 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+body, * {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 1300px;
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  background: linear-gradient(180deg, rgba(208,170,59,1) 0%, rgba(150,104,10,1) 100%);
+  width: 240px;
+  height: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  position: absolute;
+  left: 70px;
+  padding: 15px;
+}
+
+.icons ul li,
+.navigation ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+}
+
+.icons ul,
+.navigation ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+
+.icons {
+  margin-bottom: 10px;
+}
+
+.icons ul li {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 10px 20px;
+  color: #4F5776;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.icons ul li i {
+ padding-bottom: 10px;
+ font-size: 1.3rem;
+}
+
+.icons ul li:hover {
+  color: #FFFFFF;
+  background-color: #B58E10;
+}
+
+.navigation ul li {
+  display: flex;
+  justify-content: center;
+  color: #4F5776;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+
+.navigation ul li:hover {
+  color: #FFFFFF;
+  background-color: #B58E10;
+}
+
+.shuttle {
+  background-image: url(./img/slider.jpg);
+  background-position: center;
+  background-size: 125%;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+
+.shuttle-desc {
+  padding: 25px 50px 25px 25px;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #FFFFFF;
+  position: relative;
+  top: 180px;
+  left: 89px;
+}
+
+.shuttle-desc h2 {
+  padding: 29px 0 20px 0;
+}
+
+.shuttle-desc p {
+  font-size: 1.17rem;
+}
+
+.shuttle-desc button {
+  margin: 10px 0;
+  border: 2px solid white;
+  border-radius: none;
+  background-color: transparent;
+  color: #FEA400;
+  padding: 14px 20px;
+  font-weight: 600;
+  font-size: 1.25rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.shuttle-desc button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.card {
+  padding: 20px;
+  background: linear-gradient(90deg, rgba(149,102,10,1) 0%, rgba(208,172,60,1) 100%);
+  color: #FFFFFF;
+}
+
+.card div{
+  width: 43%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  /* justify-items: flex-start; */
+  align-items: flex-start;
+}
+
+.card div h1,
+.card button {
+  align-self: center;
+}
+
+.card div h1,
+.card div p {
+  margin-bottom: 20px;
+}
+
+.card div p {
+  font-size: 1.22rem;
+}
+
+.card div i {
+  margin-right: 5px;
+}
+
+.card div button {
+  padding: 10px 30px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #FFFFFF;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+.get-futures {
+  color: #515873;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-futures h1,
+.get-futures p {
+  flex: 0 1 90%;
+  text-align: center;
+}
+
+.get-futures h1 {
+  font-size: 2.7rem;
+  margin-bottom: 20px;
+}
+
+.futures {
+  margin-top: 20px;
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.future {
+  flex: 0 1 193px;
+}
+
+.img-vrapper {
+  width: 188px;
+  height: 188px;
+  border-radius: 50%;
+  border: 2px solid;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.img-vrapper img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
+
+.future p {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.subscribe {
+  background-color: #B58E0F;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 15px 35px 10px 35px;
+  color: #FFFFFF;
+}
+
+.subscribe button {
+  border: 2px solid #FFFFFF;
+  background: transparent;
+  color: #FFFFFF;
+  padding: 15px 20px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
