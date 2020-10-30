@@ -1,0 +1,108 @@
+@media screen and (max-width: 600px) {
+
+  header nav img {
+    float: none;
+    width: 90%;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+
+  header nav,
+  header nav ul {
+    display: flex;
+    flex-flow: column;
+    flex: 0 1 100%;
+    left: 0;
+  }
+
+  header nav p {
+    background-color: #4BBED1;
+    flex: 0 1 100%;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  header section {
+    padding: 0;
+  }
+
+  header section h1,
+  header section h2 {
+    margin: 0;
+  }
+
+  main section:first-child h1 {
+    width: 100%;
+  }
+
+  main section:first-child div {
+    width: 100%;
+    padding-bottom: 42px;
+    display: flex;
+    flex-flow: column;
+  }
+
+  main section:first-child div article {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  main section:nth-child(2) {
+    display: flex;
+    flex-flow: column;
+  }
+
+  main section:nth-child(2) article {
+    margin: 0 auto;
+    padding: 20px;
+    width: auto;
+  }
+
+  main section:nth-child(2) article:nth-child(2) {
+    top: 0;
+    left: 0;
+  }
+
+  footer {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+  }
+
+  footer nav {
+    flex: 0 1 100%;
+    display: flex;
+    flex-flow: column;
+  }
+
+  footer nav:nth-child(1) ul {
+    display: flex;
+    flex-flow: column;
+    margin: 10px 0 0 0;
+  }
+
+  footer nav:nth-child(1) ul li {
+    margin: 0px 15px 25px 15px;
+  }
+
+  footer nav:nth-child(1) ul li:last-of-type {
+    margin-bottom: 0px;
+}
+
+  footer nav:nth-child(1) img {
+    width: 90%;
+    margin: 0 auto 0 auto;
+  }
+
+  footer #social-nav {
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+  }
+
+  footer #social-nav div {
+    width: 53px;
+  }
+}
