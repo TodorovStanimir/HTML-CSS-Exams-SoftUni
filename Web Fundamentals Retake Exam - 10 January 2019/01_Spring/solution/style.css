@@ -14,12 +14,8 @@ body,
 }
 
 body {
-  background: linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 11%, rgba(251,251,251,1) 100%), url(../images/background.png);
-  background-position: center;
-  background-size: cover;
+  background: url(../images/background.png);
   background-repeat: repeat;
-  width: 100vw;
-  height: 100vh;
 }
 
 .shop-now {
