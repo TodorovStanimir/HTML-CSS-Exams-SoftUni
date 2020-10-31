@@ -1,0 +1,144 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+*, *:before,
+*:after {
+  box-sizing: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(160,104,92,1) 0%, rgba(241,223,190,1) 100%);
+}
+
+.login {
+  width: 70%;
+  margin: 50px auto;
+  background-color: #FFFFFF;
+  padding: 20px 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  box-shadow: 0px 0px 12px 7px #ac796a
+}
+
+.login-img-wrapper {
+  flex: 0 1 40%;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 200px;
+}
+
+.login-img-wrapper img {
+  width: 100%;
+}
+
+.login-form {
+  flex: 0 1 50%;
+  padding: 50px 20px 0 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.login-form h3 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.login-form input#email,
+.login-form input#password {
+  padding: 10px 55px;
+  border-radius: 20px;
+  width: 280px;
+  background-color: #E6E6E6;
+  border: none;
+  margin-bottom: 8px;
+  outline: none;
+}
+
+.login-form p:first-of-type {
+  align-self: flex-start;
+  margin: 20px 0 5px 55px;
+}
+
+label[for="why-i-am-here"] {
+  align-self: flex-start;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  color: #AAAAAA;
+}
+
+label[for="email"]::before,
+label[for="password"]::before {
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 3px;
+  font-weight: 900;
+  font-size: 12px;
+  position: absolute;
+  left: 54.5%;
+  color: #585858;
+}
+
+label[for="email"]::before {
+  content: "\f0e0";
+  top: 31.2%;
+}
+
+label[for="password"]::before {
+  content: "\f023";
+  top: 38.2%;
+}
+
+input[type="radio"] {
+  border: 5px solid
+}
+
+.submit-btn {
+  background-color: #8E6B52;
+  color: #FFFFFF;
+  padding: 10px 70px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #5E4736;
+  cursor: pointer;
+}
+
+.login-form p:nth-of-type(2) {
+  font-size: 0.7rem;
+  color: #A7A7B1;
+}
+
+.login-form p:nth-of-type(2) span,
+.login-form p:nth-of-type(3) span {
+  text-decoration: underline;
+  color: #686868;
+}
+
+.login-form p:nth-of-type(3) {
+  margin-top: 30px;
+  font-size: 0.7rem;
+}
+
+
+
