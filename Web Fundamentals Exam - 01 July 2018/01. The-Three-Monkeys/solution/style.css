@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FAEBC8;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.three-monkey-container {
+  width: 70%;
+  margin: 50px auto;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 0px 12px 6px #B88B79;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 10px 0;
+}
+
+.card-monkey {
+  flex: 0 1 19%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 25px;
+}
+
+.card-monkey-img-wrapper {
+  width: 100px;
+  height: 100px;
+}
+
+.card-monkey-img-wrapper img {
+  width: 100%;
+}
+
+.card-monkey-title {
+  font-size: 1.5rem;
+  margin: 15px 0;
+}
+
+.card-monkey-decription {
+  flex: 1 0 auto;
+  font-size: 0.85rem;
+}
+
+.card-monkey-name {
+  align-self: flex-start;
+  margin: 20px 0 40px 0;
+  font-style: italic;
+  font-weight: 600;
+  color: #965A50;
+  text-shadow: 16px 15px 2px #A1A1A1;
+}
