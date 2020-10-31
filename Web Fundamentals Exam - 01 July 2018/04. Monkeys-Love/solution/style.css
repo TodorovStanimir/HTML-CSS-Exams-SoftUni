@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.site-header nav ul li {
+  list-style: none;
+  color: #DA736D;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.love {
+  text-align: center;
+  background-image: linear-gradient(90deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.05) 100%), url(../img/header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  color: #FFFFFB;
+  position: relative;
+}
+
+.love h1 {
+  padding: 110px 0 50px 0;
+  font-size: 1.8rem;
+}
+
+.love h1::before,
+.find-your-monkey h2::before,
+.kind-monkey h2::before {
+  content: "";
+  width: 50px;
+  position: absolute;
+  transform: translate(-50%);
+}
+
+.love h1::before {
+  top: 172px;
+  left: 50%;
+  border-bottom: 2px solid #DA6951;
+}
+
+.love p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.find-your-monkey {
+  background-color: #F05F40;
+  text-align: center;
+  color: #FFFFFB;
+  position: relative;
+}
+
+.find-your-monkey h2 {
+  padding: 40px 0 50px 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.find-your-monkey h2::before {
+  border-bottom: 3px solid #FFFFFB;
+  top: 102px;
+  left: 50%;
+}
+
+.find-your-monkey p {
+  width: 55%;
+  margin: 0 auto;
+  color: #FFC2AA;
+}
+
+.find-your-monkey button {
+  border-radius: 40px;
+  padding: 12px 35px;
+  margin: 20px 0 40px 0;
+  outline: none;
+  border: 1px solid #DA736D;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.find-your-monkey button:hover {
+  cursor: pointer;
+}
+
+.kind-monkey {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 0 30px 0;
+}
+
+.kind-monkey h2 {
+  padding: 40px 0 60px 0;
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-align: center;
+  flex: 0 1 100%;
+}
+
+.kind-monkey h2::before {
+  top: 95px;
+  left: 50%;
+  border-bottom: 2px solid #DA6951;
+}
+
+.monkey-card {
+  width: 19%;
+  text-align: center;
+  margin: 10px;
+}
+
+.monkey-card i {
+  font-size: 3rem;
+  color: #F05F40;
+}
+
+.monkey-card h3 {
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+.monkey-card p {
+  color: #797A7D;
+}
+
+.images {
+  border-top: 2px solid #E9624A; 
+  border-bottom: 2px solid #E9624A; 
+  display: flex;
+  justify-content: space-around;
+}
+
+.images div {
+  flex: 0 1 30%;
+  border-left: 2px solid #E9624A;
+  border-right: 2px solid #E9624A;
+}
+
+.images div img {
+  width: 100%;
+  display: block;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.site-footer .red {
+  color:#DA736D;
+}
