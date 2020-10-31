@@ -1,0 +1,66 @@
+@media screen and (max-width: 480px) {
+
+  body {
+    background: none;
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+  body > header {
+    background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.1) 90%, rgba(0,0,0,1) 100%), url(images/bg.jpg);
+    background-size: cover;
+    height: 220px;
+  }
+
+  header > .logo {
+    padding: 6.6rem 0 0 0;
+  }
+
+  .wrapper > header.special {
+    padding: 1rem 2rem;
+  }
+
+  header > .logo a {
+    font-size: 3rem;
+}
+
+  main {
+    margin-top: -40px;
+  }
+
+  .wrapper > header h2:after {
+    width: 60%;
+  }
+
+  .wrapper.style1 .content {
+    padding: 20px;
+  }
+  
+  .wrapper.style2 {
+    padding: 1.5rem;
+  }
+
+  .galery {
+    flex-flow: column;
+  }
+
+  .gallery > *,
+  .spotlight > * {
+    width: 100%;
+  }
+
+  .spotlight .inner {
+    padding: 0 2.3rem 1rem 2.3rem;
+  }
+
+  .wrapper {
+    text-align: center;
+  }
+
+  .spotlight.alt {
+    text-align: center;
+  }
+}
