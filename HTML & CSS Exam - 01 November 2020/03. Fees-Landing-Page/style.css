@@ -1,0 +1,274 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button {
+  border: none;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px;
+}
+
+.logo-wrapper {
+  width: 120px;
+}
+
+.logo-wrapper img {
+  width: 100%;
+}
+
+.site-navigation ul {
+  display: flex;
+}
+
+.site-navigation ul li {
+  margin: 0 20px;
+  color: #56566E;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.taxes {
+  background-color: #54546D;
+  width: 100%;
+  height: 300px;
+  padding-top: 50px;
+  background-image: url(./images/calculator-icon.svg);
+  background-repeat: no-repeat;
+  background-position: -70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.taxes h2 {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 400;
+  flex: 0 1 100%;
+}
+
+.card {
+  flex: 0 1 28%;
+  position: relative;
+  top: 40px;
+  background-color: #FFFFFF;
+  margin: 10px;
+  border-radius: 7px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 0px 1px 6px 1px #9f9fa0;
+  padding: 20px 0 0 0;
+  height: 300px;
+  color: #54546D;
+}
+
+.card p {
+  padding: 0 15px;
+}
+
+.card footer {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 100%;
+}
+
+.card h3 {
+  flex: 0 1 100%;
+  font-size: 1.2rem;
+}
+
+.card h4 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.course1 div {
+  flex: 0 1 100%;
+}
+
+.course1 div p {
+  margin-top: 15px;
+  align-self: center;
+}
+
+.course1 p button {
+  background: #9A5DC6;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 3px 1px #afafaf;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.course1 footer {
+  flex: 0 1 100%;
+  align-self: flex-end;
+  height: 80px;
+  background: linear-gradient(90deg, rgba(4,155,61,1) 0%, rgba(73,213,126,1) 100%);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.course1 footer p {
+  margin: 5px 0;
+}
+
+.course2 footer section:first-of-type,
+.course3 footer section:first-of-type{
+  border-right: 1px solid;
+}
+
+.course2 footer p,
+.course3 footer p {
+  margin: 4px;
+}
+
+.course2 footer {
+  flex: 0 1 100%;
+  align-self: flex-end;
+  height: 80px;
+  background: linear-gradient(90deg, rgba(76,108,136,1) 0%, rgba(97,153,206,1) 100%);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.course3 footer {
+  flex: 0 1 100%;
+  align-self: flex-end;
+  height: 80px;
+  background: linear-gradient(90deg, rgba(75,56,166,1) 0%, rgba(139,124,224,1) 100%);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.attendance-online {
+  width: 75%;
+  margin: 240px auto 0 auto;
+  color: #5F546D;
+  margin-bottom: 20px;
+}
+
+.attendance-online h2 {
+  margin-bottom: 40px;
+}
+
+.attendance-online table {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.attendance-online table tr td:nth-of-type(1) {
+  width: 73%
+}
+
+.attendance-online table tr:nth-child(odd) {
+  background-color: #E6E6E6;
+}
+
+.attendance-online table tr:nth-child(even) {
+  background-color: #F8F8F8;
+}
+
+.attendance-online table tr td {
+  padding: 10px 10px;
+}
+
+table tr:first-child td:first-child {
+  border-top-left-radius: 7px;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 7px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 7px;
+}
+
+.finansirane {
+  margin: 50px auto;
+  padding-left: 85px;
+  color: #5F546D;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.finansirane h2 {
+  flex: 0 1 100%;
+  margin-bottom: 10px;
+}
+
+.finansirane-description {
+  flex: 0 1 70%;
+  padding: 0 10px 0 0;
+}
+
+.finansirane-description p {
+  margin: 10px 0;
+}
+
+.finansirane-description p:nth-of-type(2) {
+  margin: 10px 0 0 0;
+}
+
+.finansirane-description p:nth-of-type(3) {
+  margin: 0 0 10px 0;
+}
+
+.site-footer {
+  background-color: #54546D;
+  color: #8087A9;
+  padding: 30px;
+  text-align: center;
+}
+
+
+
+
+
+
